@@ -1,0 +1,37 @@
+html {
+    font-size: 16px;
+
+    @include tablet() {
+        font-size: 18px;
+    }
+
+    @include desktop() {
+        font-size: 20px;
+    }
+
+    @include desktop4k() {
+        font-size: 22px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a,
+address {
+    text-decoration: none;
+    font-style: normal;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}

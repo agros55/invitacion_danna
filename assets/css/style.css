@@ -1,0 +1,227 @@
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+address {
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  background-image: url("../img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32vh;
+  height: 7vh;
+}
+
+.hero {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4c2a4;
+}
+.hero h1,
+.hero h2 {
+  padding: 5px;
+  color: #917c5a;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.hero h1 {
+  font-size: 5.5rem;
+  border-radius: 0 10px 0 0;
+  padding-top: 0.5rem;
+  padding-bottom: 4rem;
+}
+.hero h2 {
+  font-size: 3rem;
+  border-radius: 0 10px 10px 0;
+}
+.hero .fecha {
+  font-size: 2rem;
+}
+
+.frase {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  background-color: #d4c2a4;
+}
+.frase p {
+  color: #917c5a;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cuentaAtras {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #d6e4ff;
+  color: #917c5a;
+}
+.cuentaAtras h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.cuentaAtras .numeros {
+  text-align: center;
+}
+
+.galeria {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vw;
+  background-color: #f4edf3;
+}
+.galeria h2 {
+  color: #917c5a;
+  font-size: 1.5rem;
+}
+.galeria .fotos {
+  background-color: #8b7c57;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  justify-content: space-around;
+}
+.galeria .fotos img {
+  width: 40%;
+}
+
+.info {
+  width: 100%;
+  background-color: #f4e7d8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+.info .card {
+  align-items: center;
+  background-color: #d8c2a3;
+  border-radius: 15px;
+  width: 90%;
+  padding: 3vh;
+  margin: 3vh 0 0 0;
+}
+.info .lugar h2,
+.info .lugar p,
+.info .lugar a,
+.info .regalo h2,
+.info .regalo p,
+.info .regalo a {
+  padding: 5px 0;
+  text-align: center;
+  display: block;
+}
+.info .lugar h2,
+.info .regalo h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.info .lugar p,
+.info .regalo p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.info .lugar a,
+.info .regalo a {
+  font-size: 1.5rem;
+  background-color: #f4e7d8;
+  color: #917c5a;
+  font-weight: bolder;
+  border-radius: 15px;
+  margin: 0 4rem;
+}
+
+.foto {
+  display: flex;
+  flex-direction: column;
+}
+.foto .shadow {
+  width: 100vw;
+  height: 15px;
+  background-color: #f4e7d8;
+  box-shadow: 0px 5px 10px #f4e7d8;
+  z-index: 10;
+}
+.foto img {
+  z-index: 1;
+}
+
+.asistencia {
+  background-color: #917c5a;
+  color: #f4e7d8;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4vh 0;
+}
+.asistencia p,
+.asistencia a {
+  margin-top: 20px;
+}
+.asistencia a {
+  background-color: #f4e7d8;
+  color: #917c5a;
+  width: 50%;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+  display: block;
+}
+.asistencia p {
+  font-size: 1.7rem;
+}
+.asistencia .whatsapp {
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 5px;
+}/*# sourceMappingURL=style.css.map */

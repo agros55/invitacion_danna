@@ -1,0 +1,204 @@
+.hero {
+    width: 100%;
+    height: 75vh;
+    //max-height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $marron;
+    //padding-left: 5vw;
+
+    h1,
+    h2 {
+        padding: 5px;
+        color: $dorado;
+        width: fit-content;
+    }
+
+    h1 {
+        font-size: 5.5rem;
+        border-radius: 0 10px 0 0;
+        padding-top: .5rem;
+        padding-bottom: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .fecha {
+        font-size: 2rem;
+    }
+}
+
+.frase {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: $marron;
+
+    p {
+        color: $dorado;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+.cuentaAtras {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $gris;
+    color: $dorado;
+    //    border: .5px solid black;
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .numeros {
+        text-align: center;
+    }
+}
+
+.galeria {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw;
+    background-color: $marronClarito;
+
+    h2 {
+        color: $dorado;
+        font-size: 1.5rem;
+    }
+
+    .fotos {
+        background-color: $marron2;
+        //width: 90%;
+        //height: 90%;
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        justify-content: space-around;
+
+        img {
+            width: 40%;
+        }
+    }
+}
+
+.info {
+    width: 100%;
+    background-color: $marroncito;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5vh;
+
+
+    .card {
+        align-items: center;
+        background-color: $card;
+        border-radius: 15px;
+        width: 90%;
+        padding: 3vh;
+        margin: 3vh 0 0 0;
+    }
+
+    .lugar,
+    .regalo {
+
+        h2,
+        p,
+        a {
+            padding: 5px 0;
+            text-align: center;
+            display: block;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        a {
+            font-size: 1.5rem;
+            background-color: $marroncito;
+            color: $dorado;
+            font-weight: bolder;
+            border-radius: 15px;
+            margin: 0 4rem;
+        }
+
+    }
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+
+    .shadow {
+        width: 100vw;
+        height: 15px;
+        background-color: $marroncito;
+        box-shadow: 0px 5px 10px #f4e7d8;
+        z-index: 10;
+    }
+
+    img {
+        z-index: 1;
+    }
+}
+
+.asistencia {
+    background-color: $dorado;
+    color: $marroncito;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4vh 0;
+
+    p,
+    a {
+        margin-top: 20px;
+    }
+
+    a {
+        background-color: $marroncito;
+        color: $dorado;
+        width: 50%;
+        padding: .5rem 2rem;
+        border-radius: 20px;
+        display: block;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+
+    .whatsapp {
+        font-size: 1rem;
+        font-style: italic;
+        margin-top: 5px;
+    }
+}
