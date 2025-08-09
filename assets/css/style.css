@@ -65,6 +65,18 @@ img {
   font-style: normal;
 }
 
+.font-4-1 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-4-2 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .neonBlanco {
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
@@ -87,15 +99,14 @@ img {
 
 .hero {
   width: 100%;
-  height: 55vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background-color: #d4c2a4;
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
-  box-shadow: 0px 5px 10px #f4e7d8;
 }
 .hero img {
   width: 150vw;
@@ -149,21 +160,41 @@ img {
 }
 
 .cuentaAtras {
+  background-image: url("../../assets/img/ondas.svg");
+  background-size: 190%;
+  background-repeat: no-repeat;
+  background-position: left;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  background-color: #d6e4ff;
+  justify-content: center;
+  background-color: #d4c2a4;
   color: #917c5a;
 }
 .cuentaAtras h2 {
   font-size: 1.5rem;
   text-align: center;
+  margin: 1.5rem;
 }
-.cuentaAtras .numeros {
-  text-align: center;
+.cuentaAtras .contador {
+  width: 100%;
+  padding: 0 10vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cuentaAtras .contador .numeros {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cuentaAtras .contador .texto {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .galeria {
@@ -191,6 +222,7 @@ img {
 }
 
 .info {
+  position: relative;
   width: 100%;
   background-color: #f4e7d8;
   display: flex;
@@ -198,11 +230,38 @@ img {
   align-items: center;
   padding-bottom: 5vh;
 }
+.info .bola {
+  position: absolute;
+}
+.info .bola-1 {
+  width: 50%;
+  top: 35vh;
+  left: -30vw;
+  rotate: -55deg;
+}
+.info .bola-2 {
+  width: 60%;
+  top: 45vh;
+  left: -35vw;
+  rotate: -75deg;
+}
+.info .bola-3 {
+  width: 50%;
+  top: 20vh;
+  right: -35vw;
+  rotate: 25deg;
+}
+.info .bola-4 {
+  width: 60%;
+  top: 5vh;
+  right: -35vw;
+  rotate: 75deg;
+}
 .info .card {
   align-items: center;
   background-color: #d8c2a3;
   border-radius: 15px;
-  width: 90%;
+  width: 70%;
   padding: 3vh;
   margin: 3vh 0 0 0;
 }
@@ -235,10 +294,25 @@ img {
   border-radius: 15px;
   margin: 0 4rem;
 }
+.info .lugar {
+  display: flex;
+  flex-direction: column;
+}
+.info .lugar h2 {
+  font-size: 3rem;
+  color: #917c5a;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
+}
+.info .lugar img {
+  rotate: 45deg;
+  width: 30vw;
+  margin: 0;
+}
 
 .foto {
   display: flex;
   flex-direction: column;
+  height: auto;
 }
 .foto .shadow {
   width: 100vw;
@@ -249,6 +323,8 @@ img {
 }
 .foto img {
   z-index: 1;
+  width: 100%;
+  height: auto;
 }
 
 .asistencia {

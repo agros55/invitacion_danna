@@ -17,6 +17,19 @@
     font-style: normal;
 }
 
+.font-4-1 {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-4-2 {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 
 .neonBlanco {
     color: #fff;
@@ -45,16 +58,15 @@
 
 .hero {
     width: 100%;
-    height: 55vh;
+    height: 70vh;
     //max-height: 580px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: $marron;
     backdrop-filter: blur(100px);
     //padding-left: 5vw;
-    box-shadow: 0px 5px 10px #f4e7d8;
 
 
 
@@ -127,24 +139,48 @@
 }
 
 .cuentaAtras {
+    background-image: url('../../assets/img/ondas.svg');
+    background-size: 190%;
+    background-repeat: no-repeat;
+    background-position: left;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: $gris;
+    justify-content: center;
+    background-color: $marron;
     color: $dorado;
     //    border: .5px solid black;
 
     h2 {
         font-size: 1.5rem;
         text-align: center;
+        margin: 1.5rem;
     }
 
-    .numeros {
-        text-align: center;
+    .contador {
+        width: 100%;
+        padding: 0 10vw;
+        display: flex;
+        justify-content: space-evenly;
+
+        .numeros {
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .texto {
+            font-size: 1rem;
+            display: flex;
+            justify-content: space-evenly;
+        }
     }
+
+
 }
 
 .galeria {
@@ -177,6 +213,7 @@
 }
 
 .info {
+    position: relative;
     width: 100%;
     background-color: $marroncito;
     display: flex;
@@ -184,11 +221,43 @@
     align-items: center;
     padding-bottom: 5vh;
 
+    .bola {
+        position: absolute;
+    }
+
+    .bola-1 {
+        width: 50%;
+        top: 35vh;
+        left: -30vw;
+        rotate: -55deg;
+    }
+
+    .bola-2 {
+        width: 60%;
+        top: 45vh;
+        left: -35vw;
+        rotate: -75deg;
+    }
+
+    .bola-3 {
+        width: 50%;
+        top: 20vh;
+        right: -35vw;
+        rotate: 25deg;
+    }
+
+    .bola-4 {
+        width: 60%;
+        top: 5vh;
+        right: -35vw;
+        rotate: 75deg;
+    }
+
     .card {
         align-items: center;
         background-color: $card;
         border-radius: 15px;
-        width: 90%;
+        width: 70%;
         padding: 3vh;
         margin: 3vh 0 0 0;
     }
@@ -224,11 +293,37 @@
         }
 
     }
+
+    .lugar {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: 3rem;
+            color: $dorado;
+            text-shadow:
+                0 0 7px #fff,
+                0 0 10px #fff,
+                0 0 21px #fff,
+                0 0 42px #fff,
+                0 0 82px #fff,
+                0 0 92px #fff,
+                0 0 102px #fff,
+                0 0 151px #fff;
+        }
+
+        img {
+            rotate: 45deg;
+            width: 30vw;
+            margin: 0;
+        }
+    }
 }
 
 .foto {
     display: flex;
     flex-direction: column;
+    height: auto;
 
     .shadow {
         width: 100vw;
@@ -240,6 +335,8 @@
 
     img {
         z-index: 1;
+        width: 100%;
+        height: auto;
     }
 }
 
