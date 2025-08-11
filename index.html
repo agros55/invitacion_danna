@@ -24,6 +24,22 @@
     <div class="hero">
         <h1 class="title splash neonBlanco">Danna</h1>
         <div class="subtitle"><span>MIS </span><span class="xv font-3">XV</span><span>AÑOS</span></div>
+        <div class="audio-player">
+            <audio id="audio" controls>
+                <source src="./assets/music/Sky Full Of Stars.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="progress">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="progreso">
+                <div id="current-time" class="simple">0:00</div>
+                <div id="total-time" class="simple">0:00</div>
+            </div>
+            <div class="controls">
+                <button id="play-pause-button" class="play"></i></button>
+            </div>
+        </div>
         <div class="frase simple ">
             <!-- <p>"Porque esta noche es muy importante para mi, quiero compartirla
                 con las personas que llevo en el corazón. Porque sos una de ellas, quisiera
