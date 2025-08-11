@@ -1,5 +1,7 @@
+/* $marron: #d4c2a4; //Marron tarjetas */
 html {
   font-size: 16px;
+  background-color: #ede4d7;
   max-width: 100vw;
   overflow-x: hidden;
 }
@@ -66,9 +68,10 @@ img {
 }
 
 .font-3 {
-  font-family: "Jacques Francois Shadow", serif;
+  font-family: "Abril Fatface", serif;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: -1rem;
 }
 
 .font-4-1 {
@@ -80,6 +83,18 @@ img {
 .font-4-2 {
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 700;
+  font-style: normal;
+}
+
+.splash {
+  font-family: "Splash", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.simple {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -97,10 +112,13 @@ img {
   position: absolute;
   width: 40vw;
   left: 30vw;
-  opacity: 0.8;
+  opacity: 0.5;
+  rotate: 15deg;
 }
 .brillos .fondo {
-  height: 40vh;
+  height: 30vh;
+  position: relative;
+  bottom: 0;
 }
 
 .hero {
@@ -110,7 +128,7 @@ img {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #d4c2a4;
+  background-color: #ede4d7;
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
 }
@@ -126,27 +144,33 @@ img {
 }
 .hero h1 {
   position: absolute;
-  top: -110px;
-  font-size: 7.5rem;
+  top: -145px;
+  font-size: 7rem;
   border-radius: 0 10px 0 0;
   padding-top: 0.5rem;
   padding-bottom: 4rem;
-  color: #d4c2a4;
+  color: #ffffff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
 }
-.hero h2 {
-  display: inline-block;
+.hero .subtitle {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   font-size: 2rem;
   border-radius: 0 10px 10px 0;
 }
 .hero span {
   vertical-align: middle;
+  color: #917c5a;
 }
 .hero .xv {
-  font-size: 6rem;
+  font-size: 7rem;
+  color: #cfa571;
 }
 .hero .fecha {
-  font-size: 2rem;
+  margin-top: 5vh;
+  width: 85vw;
 }
 
 .frase {
@@ -157,12 +181,13 @@ img {
   align-items: center;
   justify-content: center;
   padding: 3rem;
-  background-color: #d4c2a4;
+  background-color: #ede4d7;
+  line-height: 25px;
 }
 .frase p {
   color: #917c5a;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .cuentaAtras {
@@ -176,11 +201,11 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #d4c2a4;
+  background-color: #ede4d7;
   color: #917c5a;
 }
 .cuentaAtras h2 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-align: center;
   margin: 1.5rem;
 }
@@ -205,7 +230,7 @@ img {
 
 .galeria {
   width: 100%;
-  height: 30vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,7 +255,6 @@ img {
 .info {
   position: relative;
   width: 100vw;
-  max-width: 100vw;
   background-color: #f4e7d8;
   display: flex;
   flex-direction: column;
@@ -241,25 +265,25 @@ img {
   position: absolute;
 }
 .info .bola-1 {
-  width: 50%;
+  width: 45%;
   top: 35vh;
   left: -30vw;
   rotate: -55deg;
 }
 .info .bola-2 {
-  width: 60%;
+  width: 55%;
   top: 45vh;
   left: -35vw;
   rotate: -75deg;
 }
 .info .bola-3 {
-  width: 50%;
+  width: 45%;
   top: 20vh;
   right: -35vw;
   rotate: 25deg;
 }
 .info .bola-4 {
-  width: 60%;
+  width: 55%;
   top: 5vh;
   right: -35vw;
   rotate: 75deg;
@@ -269,6 +293,7 @@ img {
   background-color: #d8c2a3;
   border-radius: 15px;
   width: 70%;
+  height: 30vh;
   padding: 3vh;
   margin: 3vh 0 0 0;
 }
@@ -277,42 +302,98 @@ img {
 .info .lugar a,
 .info .regalo h2,
 .info .regalo p,
-.info .regalo a {
-  padding: 5px 0;
+.info .regalo a,
+.info .playlist h2,
+.info .playlist p,
+.info .playlist a {
   text-align: center;
   display: block;
 }
 .info .lugar h2,
-.info .regalo h2 {
+.info .regalo h2,
+.info .playlist h2 {
   font-size: 2rem;
-  margin-bottom: 15px;
 }
 .info .lugar p,
-.info .regalo p {
+.info .regalo p,
+.info .playlist p {
   font-size: 1.5rem;
-  margin-bottom: 10px;
 }
 .info .lugar a,
-.info .regalo a {
+.info .regalo a,
+.info .playlist a {
   font-size: 1.5rem;
   background-color: #f4e7d8;
   color: #917c5a;
   font-weight: bolder;
   border-radius: 15px;
-  margin: 0 4rem;
+  padding: 0.3rem 1rem;
 }
 .info .lugar {
   display: flex;
   flex-direction: column;
 }
 .info .lugar h2 {
+  position: relative;
+  top: -6vh;
   font-size: 3rem;
   color: #917c5a;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
 }
+.info .lugar p {
+  position: relative;
+  top: -6vh;
+}
+.info .lugar a {
+  position: relative;
+  top: -5vh;
+}
 .info .lugar img {
+  position: relative;
+  top: -3vh;
   rotate: 45deg;
-  width: 30vw;
+  width: 25vw;
+  margin: 0;
+}
+.info .playlist {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+}
+.info .playlist h2 {
+  position: relative;
+  top: -2vh;
+  font-size: 3rem;
+  color: #917c5a;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
+}
+.info .playlist img {
+  position: relative;
+  top: -1.5vh;
+  width: 15vw;
+  margin: 0;
+}
+.info .regalo {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+}
+.info .regalo h2 {
+  position: relative;
+  top: -2vh;
+  font-size: 3rem;
+  color: #917c5a;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
+}
+.info .regalo p {
+  position: relative;
+  top: -1rem;
+  font-size: 1.2rem;
+}
+.info .regalo img {
+  position: relative;
+  top: -1.5vh;
+  width: 15vw;
   margin: 0;
 }
 
@@ -344,6 +425,9 @@ img {
   text-align: center;
   padding: 4vh 0;
 }
+.asistencia h2 {
+  font-size: 5rem;
+}
 .asistencia p,
 .asistencia a {
   margin-top: 20px;
@@ -357,10 +441,110 @@ img {
   display: block;
 }
 .asistencia p {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
+  padding: 0 3rem;
 }
 .asistencia .whatsapp {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-style: italic;
   margin-top: 5px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100vw;
+  max-height: 30vh;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container img {
+  max-height: 30vh;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  /* width: auto; */
+  width: 5vw;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
