@@ -227,15 +227,17 @@
 
     .fotos {
         background-color: $marron2;
-        //width: 90%;
-        //height: 90%;
+
+        height: 30vh;
         display: flex;
         gap: 10px;
         padding: 10px;
         justify-content: space-around;
 
         img {
-            width: 40%;
+            overflow-x: hidden;
+            width: auto;
+            height: 28vh;
         }
     }
 }
@@ -623,8 +625,6 @@
         background-position-y: center;
     }
 }
-
-
 
 .controls {
     position: relative;
