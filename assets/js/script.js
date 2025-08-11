@@ -84,3 +84,6 @@ audio.addEventListener("timeupdate", () => {
     const progress = (currentTime / duration) * 100;
     progressBar.style.width = `${progress}%`;
 });
+
+
+audio.play();
