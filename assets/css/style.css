@@ -421,6 +421,7 @@ img {
 }
 
 .asistencia {
+  position: relative;
   background-color: #917c5a;
   color: #f4e7d8;
   font-size: 1.5rem;
@@ -428,7 +429,21 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 4vh 0;
+  padding: 7vh 0;
+}
+.asistencia .copa {
+  position: absolute;
+  top: 10px;
+  width: 12vw;
+}
+.asistencia .copa-1 {
+  left: 38%;
+  rotate: 20deg;
+  top: 25px;
+}
+.asistencia .copa-2 {
+  right: 41%;
+  rotate: -15deg;
 }
 .asistencia h2 {
   font-size: 5rem;
@@ -595,7 +610,7 @@ img {
 }
 
 .progress {
-  height: 10px;
+  height: 5px;
   background-color: #fff;
   margin-top: 10px;
 }
