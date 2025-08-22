@@ -66,6 +66,18 @@
         rotate: 15deg;
     }
 
+    .brillo-fondo {
+        position: absolute;
+        top: 0;
+        height: 25vh;
+        opacity: .5;
+        z-index: 5;
+    }
+
+    .izq {
+        right: 0;
+    }
+
     .fondo {
         height: 30vh;
         position: relative;
@@ -257,30 +269,44 @@
     }
 
     .bola-1 {
-        width: 45%;
-        top: 35vh;
-        left: -30vw;
+        width: 25%;
+        top: 40vh;
+        left: -15vw;
         rotate: -55deg;
     }
 
     .bola-2 {
-        width: 55%;
+        width: 35%;
         top: 45vh;
-        left: -35vw;
+        left: -20vw;
         rotate: -75deg;
     }
 
     .bola-3 {
-        width: 45%;
-        top: 20vh;
-        right: -35vw;
+        width: 25%;
+        top: 15vh;
+        right: -15vw;
         rotate: 25deg;
     }
 
     .bola-4 {
-        width: 55%;
+        width: 35%;
         top: 5vh;
-        right: -35vw;
+        right: -20vw;
+        rotate: 75deg;
+    }
+
+    .bola-5 {
+        width: 30%;
+        top: 90vh;
+        right: -15vw;
+        rotate: 25deg;
+    }
+
+    .bola-6 {
+        width: 35%;
+        top: 80vh;
+        right: -25vw;
         rotate: 75deg;
     }
 
@@ -507,6 +533,56 @@
         font-style: italic;
         margin-top: 5px;
     }
+
+    .brillo {
+        position: absolute;
+    }
+
+    .brillo-1 {
+        width: 70vw;
+        top: 15vh;
+        left: -45vw;
+        opacity: .3;
+    }
+
+    .brillo-2 {
+        width: 35vw;
+        top: 21vh;
+        left: -12vw;
+        opacity: .9;
+    }
+
+    .brillo-3 {
+        width: 30vw;
+        top: 39vh;
+        left: -0vw;
+        opacity: .8;
+    }
+
+    .brillo-1-i {
+        width: 70vw;
+        top: 15vh;
+        right: -45vw;
+        opacity: .3;
+    }
+
+    .brillo-2-i {
+        width: 35vw;
+        top: 19vh;
+        right: -10vw;
+        opacity: .9;
+    }
+
+    .brillo-3-i {
+        width: 30vw;
+        top: 38vh;
+        right: 3vw;
+        opacity: .8;
+    }
+
+
+
+
 }
 
 /* Slideshow container */
