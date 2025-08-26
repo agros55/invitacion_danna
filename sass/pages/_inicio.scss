@@ -250,7 +250,7 @@
 
     h2 {
         color: $dorado;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         margin-bottom: 3vh;
     }
 
@@ -274,15 +274,23 @@
 .info {
     position: relative;
     width: 100vw;
-
     background-color: $marroncito;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 5vh;
 
+    .difum-1 {
+        position: absolute;
+        width: 29vh;
+        top: 1vh;
+        right: -45vw;
+        z-index: 1;
+    }
+
     .bola {
         position: absolute;
+        z-index: 5;
     }
 
     .bola-1 {
@@ -331,7 +339,7 @@
         align-items: center;
         background-color: $card;
         border-radius: 15px;
-        width: 70%;
+        width: 60%;
         //height: 30vh;
         padding: 3vh;
         padding-top: 10vh;
@@ -355,7 +363,7 @@
         }
 
         p {
-            font-size: 2.5vh;
+            font-size: 2vh;
 
         }
 
@@ -465,7 +473,7 @@
         p {
             //position: relative;
             top: -1rem;
-            font-size: 2vh;
+            font-size: 1.6vh;
         }
 
         img {
@@ -616,13 +624,15 @@
     .marco {
 
         background-color: #fff;
-        padding: 2vw 2vw 8vw 2vw;
+        padding: 2vw 2vw 14vw 2vw;
         height: 350px;
         width: 70vw;
 
         .foto-1,
         .foto-2,
-        .foto-3 {
+        .foto-3,
+        .foto-4,
+        .foto-5 {
             background-size: cover;
             width: 100%;
             height: 100%;
@@ -630,7 +640,7 @@
         }
 
         .foto-1 {
-            background-image: url(../img/fotos/foto01.jpg);
+            background-image: url(../img/fotos/foto06.jpg);
             background-position: center;
         }
 
@@ -642,6 +652,16 @@
 
         .foto-3 {
             background-image: url(../img/fotos/foto03.jpg);
+            background-position: center;
+        }
+
+        .foto-4 {
+            background-image: url(../img/fotos/foto04.jpg);
+            background-position: center;
+        }
+
+        .foto-5 {
+            background-image: url(../img/fotos/foto05.jpg);
             background-position: center;
         }
     }
