@@ -37,6 +37,13 @@
     font-style: normal;
 }
 
+.hurricane {
+    font-family: "Hurricane", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 .simple {
     font-family: "Faculty Glyphic", sans-serif;
     font-weight: 400;
@@ -87,7 +94,7 @@
 
 .hero {
     width: 100%;
-    height: 70vh;
+    //height: 70vh;
     //max-height: 580px;
     display: flex;
     flex-direction: column;
@@ -113,13 +120,14 @@
     }
 
     h1 {
-        position: absolute;
-        top: -145px;
+        position: relative;
+        top: -15vh;
         font-size: 7rem;
         border-radius: 0 10px 0 0;
         padding-top: .5rem;
-        padding-bottom: 4rem;
+        //padding-bottom: 4rem;
         color: #ffffff;
+        z-index: 15;
         text-shadow:
             0 0 7px #fff,
             0 0 10px #fff,
@@ -140,6 +148,8 @@
         justify-content: space-evenly;
         font-size: 2rem;
         border-radius: 0 10px 10px 0;
+        position: relative;
+        top: -20vh;
     }
 
     span {
@@ -153,14 +163,16 @@
     }
 
     .fecha {
-        margin-top: 5vh;
+        //margin-top: 5vh;
         width: 85vw;
+        position: relative;
+        top: -5vh;
     }
 }
 
 .frase {
     position: relative;
-    top: 65px;
+    top: -15vh;
     width: 100%;
     height: 25vh;
     display: flex;
@@ -174,7 +186,11 @@
     p {
         color: $dorado;
         text-align: center;
-        font-size: 1.2rem;
+        //font-size: 1.2rem;
+        font-size: 2.5vh;
+
+
+
     }
 }
 
@@ -194,9 +210,9 @@
     //    border: .5px solid black;
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         text-align: center;
-        margin: 1.5rem;
+        //margin: 1.5rem;
     }
 
     .contador {
@@ -225,7 +241,7 @@
 
 .galeria {
     width: 100%;
-    height: 45vh;
+    //height: 45vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -235,15 +251,16 @@
     h2 {
         color: $dorado;
         font-size: 1.5rem;
+        margin-bottom: 3vh;
     }
 
     .fotos {
         background-color: $marron2;
 
-        height: 30vh;
+        //height: 30vh;
         display: flex;
         gap: 10px;
-        padding: 10px;
+        padding: 20px;
         justify-content: space-around;
 
         img {
@@ -315,8 +332,9 @@
         background-color: $card;
         border-radius: 15px;
         width: 70%;
-        height: 30vh;
+        //height: 30vh;
         padding: 3vh;
+        padding-top: 10vh;
         margin: 3vh 0 0 0;
     }
 
@@ -333,20 +351,22 @@
 
         h2 {
             font-size: 2rem;
+            margin-bottom: 1vh;
         }
 
         p {
-            font-size: 1.5rem;
+            font-size: 2.5vh;
 
         }
 
         a {
-            font-size: 1.5rem;
+            font-size: 3vh;
             background-color: $marroncito;
             color: $dorado;
             font-weight: bolder;
             border-radius: 15px;
             padding: 0.3rem 1rem;
+            margin-top: 2vh;
         }
 
     }
@@ -356,9 +376,9 @@
         flex-direction: column;
 
         h2 {
-            position: relative;
+            //position: relative;
             top: -6vh;
-            font-size: 3rem;
+            font-size: 4.8vh;
             color: $dorado;
             text-shadow:
                 0 0 7px #fff,
@@ -372,33 +392,34 @@
         }
 
         p {
-            position: relative;
+            //position: relative;
             top: -6vh;
         }
 
         a {
-            position: relative;
+            //position: relative;
             top: -5vh
         }
 
         img {
-            position: relative;
-            top: -3vh;
+            position: absolute;
+            top: 4vh;
             rotate: 45deg;
-            width: 25vw;
+            width: 10vh;
             margin: 0;
         }
     }
 
     .playlist {
+        position: relative;
         display: flex;
         flex-direction: column;
-        height: 35vh;
+        //height: 35vh;
 
         h2 {
-            position: relative;
+            //position: relative;
             top: -2vh;
-            font-size: 3rem;
+            font-size: 4.8vh;
             color: $dorado;
             text-shadow:
                 0 0 7px #fff,
@@ -412,23 +433,23 @@
         }
 
         img {
-            position: relative;
-            top: -1.5vh;
-            width: 15vw;
+            position: absolute;
+            top: 4vh;
+            width: 6vh;
             margin: 0;
         }
     }
 
     .regalo {
-
+        position: relative;
         display: flex;
         flex-direction: column;
-        height: 35vh;
+        //height: 35vh;
 
         h2 {
-            position: relative;
+            //position: relative;
             top: -2vh;
-            font-size: 3rem;
+            font-size: 4.8vh;
             color: $dorado;
             text-shadow:
                 0 0 7px #fff,
@@ -442,15 +463,15 @@
         }
 
         p {
-            position: relative;
+            //position: relative;
             top: -1rem;
-            font-size: 1.2rem;
+            font-size: 2vh;
         }
 
         img {
-            position: relative;
-            top: -1.5vh;
-            width: 15vw;
+            position: absolute;
+            top: 4vh;
+            width: 6vh;
             margin: 0;
         }
 
@@ -588,12 +609,45 @@
 /* Slideshow container */
 .slideshow-container {
     max-width: 100vw;
-    max-height: 30vh;
+    height: auto;
     position: relative;
     margin: auto;
 
+    .marco {
+
+        background-color: #fff;
+        padding: 2vw 2vw 8vw 2vw;
+        height: 350px;
+        width: 70vw;
+
+        .foto-1,
+        .foto-2,
+        .foto-3 {
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            //background-color: black;
+        }
+
+        .foto-1 {
+            background-image: url(../img/fotos/foto01.jpg);
+            background-position: center;
+        }
+
+        .foto-2 {
+            background-image: url(../img/fotos/foto02.jpg);
+            background-position: center;
+            background-position-y: bottom;
+        }
+
+        .foto-3 {
+            background-image: url(../img/fotos/foto03.jpg);
+            background-position: center;
+        }
+    }
+
     img {
-        max-height: 30vh;
+        height: auto;
     }
 }
 
@@ -624,6 +678,12 @@
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: -3vw;
+    border-radius: 3px 0 0 3px;
+
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -686,10 +746,10 @@
 }
 
 .audio-player {
-    position: absolute;
-    top: 85px;
+    position: relative;
+    top: -25vh;
     width: 50vw;
-    margin: 20px;
+    //margin: 20px;
     display: flex;
     flex-direction: column;
 

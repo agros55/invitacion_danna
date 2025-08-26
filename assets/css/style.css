@@ -92,6 +92,12 @@ img {
   font-style: normal;
 }
 
+.hurricane {
+  font-family: "Hurricane", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .simple {
   font-family: "Faculty Glyphic", sans-serif;
   font-weight: 400;
@@ -133,7 +139,6 @@ img {
 
 .hero {
   width: 100%;
-  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -153,13 +158,13 @@ img {
   width: fit-content;
 }
 .hero h1 {
-  position: absolute;
-  top: -145px;
+  position: relative;
+  top: -15vh;
   font-size: 7rem;
   border-radius: 0 10px 0 0;
   padding-top: 0.5rem;
-  padding-bottom: 4rem;
   color: #ffffff;
+  z-index: 15;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
 }
 .hero .subtitle {
@@ -169,6 +174,8 @@ img {
   justify-content: space-evenly;
   font-size: 2rem;
   border-radius: 0 10px 10px 0;
+  position: relative;
+  top: -20vh;
 }
 .hero span {
   vertical-align: middle;
@@ -179,13 +186,14 @@ img {
   color: #cfa571;
 }
 .hero .fecha {
-  margin-top: 5vh;
   width: 85vw;
+  position: relative;
+  top: -5vh;
 }
 
 .frase {
   position: relative;
-  top: 65px;
+  top: -15vh;
   width: 100%;
   height: 25vh;
   display: flex;
@@ -199,7 +207,7 @@ img {
 .frase p {
   color: #917c5a;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2.5vh;
 }
 
 .cuentaAtras {
@@ -217,9 +225,8 @@ img {
   color: #917c5a;
 }
 .cuentaAtras h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   text-align: center;
-  margin: 1.5rem;
 }
 .cuentaAtras .contador {
   width: 100%;
@@ -242,7 +249,6 @@ img {
 
 .galeria {
   width: 100%;
-  height: 45vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,13 +258,13 @@ img {
 .galeria h2 {
   color: #917c5a;
   font-size: 1.5rem;
+  margin-bottom: 3vh;
 }
 .galeria .fotos {
   background-color: #8b7c57;
-  height: 30vh;
   display: flex;
   gap: 10px;
-  padding: 10px;
+  padding: 20px;
   justify-content: space-around;
 }
 .galeria .fotos img {
@@ -320,8 +326,8 @@ img {
   background-color: #d8c2a3;
   border-radius: 15px;
   width: 70%;
-  height: 30vh;
   padding: 3vh;
+  padding-top: 10vh;
   margin: 3vh 0 0 0;
 }
 .info .lugar h2,
@@ -340,87 +346,83 @@ img {
 .info .regalo h2,
 .info .playlist h2 {
   font-size: 2rem;
+  margin-bottom: 1vh;
 }
 .info .lugar p,
 .info .regalo p,
 .info .playlist p {
-  font-size: 1.5rem;
+  font-size: 2.5vh;
 }
 .info .lugar a,
 .info .regalo a,
 .info .playlist a {
-  font-size: 1.5rem;
+  font-size: 3vh;
   background-color: #f4e7d8;
   color: #917c5a;
   font-weight: bolder;
   border-radius: 15px;
   padding: 0.3rem 1rem;
+  margin-top: 2vh;
 }
 .info .lugar {
   display: flex;
   flex-direction: column;
 }
 .info .lugar h2 {
-  position: relative;
   top: -6vh;
-  font-size: 3rem;
+  font-size: 4.8vh;
   color: #917c5a;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
 }
 .info .lugar p {
-  position: relative;
   top: -6vh;
 }
 .info .lugar a {
-  position: relative;
   top: -5vh;
 }
 .info .lugar img {
-  position: relative;
-  top: -3vh;
+  position: absolute;
+  top: 4vh;
   rotate: 45deg;
-  width: 25vw;
+  width: 10vh;
   margin: 0;
 }
 .info .playlist {
+  position: relative;
   display: flex;
   flex-direction: column;
-  height: 35vh;
 }
 .info .playlist h2 {
-  position: relative;
   top: -2vh;
-  font-size: 3rem;
+  font-size: 4.8vh;
   color: #917c5a;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
 }
 .info .playlist img {
-  position: relative;
-  top: -1.5vh;
-  width: 15vw;
+  position: absolute;
+  top: 4vh;
+  width: 6vh;
   margin: 0;
 }
 .info .regalo {
+  position: relative;
   display: flex;
   flex-direction: column;
-  height: 35vh;
 }
 .info .regalo h2 {
-  position: relative;
   top: -2vh;
-  font-size: 3rem;
+  font-size: 4.8vh;
   color: #917c5a;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
 }
 .info .regalo p {
-  position: relative;
   top: -1rem;
-  font-size: 1.2rem;
+  font-size: 2vh;
 }
 .info .regalo img {
-  position: relative;
-  top: -1.5vh;
-  width: 15vw;
+  position: absolute;
+  top: 4vh;
+  width: 6vh;
   margin: 0;
 }
 
@@ -534,12 +536,38 @@ img {
 /* Slideshow container */
 .slideshow-container {
   max-width: 100vw;
-  max-height: 30vh;
+  height: auto;
   position: relative;
   margin: auto;
 }
+.slideshow-container .marco {
+  background-color: #fff;
+  padding: 2vw 2vw 8vw 2vw;
+  height: 350px;
+  width: 70vw;
+}
+.slideshow-container .marco .foto-1,
+.slideshow-container .marco .foto-2,
+.slideshow-container .marco .foto-3 {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.slideshow-container .marco .foto-1 {
+  background-image: url(../img/fotos/foto01.jpg);
+  background-position: center;
+}
+.slideshow-container .marco .foto-2 {
+  background-image: url(../img/fotos/foto02.jpg);
+  background-position: center;
+  background-position-y: bottom;
+}
+.slideshow-container .marco .foto-3 {
+  background-image: url(../img/fotos/foto03.jpg);
+  background-position: center;
+}
 .slideshow-container img {
-  max-height: 30vh;
+  height: auto;
 }
 
 /* Hide the images by default */
@@ -570,6 +598,11 @@ img {
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: -3vw;
   border-radius: 3px 0 0 3px;
 }
 
@@ -630,10 +663,9 @@ img {
   }
 }
 .audio-player {
-  position: absolute;
-  top: 85px;
+  position: relative;
+  top: -25vh;
   width: 50vw;
-  margin: 20px;
   display: flex;
   flex-direction: column;
 }
