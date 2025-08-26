@@ -285,8 +285,22 @@ img {
 .info .difum-1 {
   position: absolute;
   width: 29vh;
-  top: 1vh;
-  right: -45vw;
+  top: 2vh;
+  right: -40vw;
+  z-index: 1;
+}
+.info .difum-2 {
+  position: absolute;
+  width: 29vh;
+  top: 36.5vh;
+  left: -40vw;
+  z-index: 1;
+}
+.info .difum-3 {
+  position: absolute;
+  width: 33vh;
+  top: 77vh;
+  right: -46vw;
   z-index: 1;
 }
 .info .bola {
