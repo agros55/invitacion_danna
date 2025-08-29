@@ -510,6 +510,24 @@ img {
   font-size: 1.4rem;
   padding: 0 3rem;
 }
+.asistencia .invitados {
+  background-color: #f4e7d8;
+  padding: 5vw;
+  border-radius: 3vw;
+  color: #917c5a;
+}
+.asistencia .familia {
+  font-size: 3vh;
+  margin-bottom: 1vh;
+}
+.asistencia .cant_pers {
+  font-size: 2.5vh;
+}
+.asistencia .confirmacion {
+  font-size: 2.5vh;
+  margin-top: 0;
+  margin-bottom: 2.5vh;
+}
 .asistencia .whatsapp {
   font-size: 0.8rem;
   font-style: italic;
@@ -638,11 +656,6 @@ img {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-/* .prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-} */
 /* Caption text */
 .text {
   color: #f2f2f2;

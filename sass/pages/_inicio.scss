@@ -573,6 +573,29 @@
         padding: 0 3rem;
     }
 
+    .invitados {
+        background-color: $marroncito;
+        padding: 5vw;
+        border-radius: 3vw;
+        color: $dorado;
+    }
+
+    .familia {
+        font-size: 3vh;
+        margin-bottom: 1vh;
+    }
+
+    .cant_pers {
+        font-size: 2.5vh;
+        //margin-bottom: 2.5vh;
+    }
+
+    .confirmacion {
+        font-size: 2.5vh;
+        margin-top: 0;
+        margin-bottom: 2.5vh;
+    }
+
     .whatsapp {
         font-size: .8rem;
         font-style: italic;
@@ -721,12 +744,6 @@
     border-radius: 3px 0 0 3px;
 
 }
-
-/* On hover, add a black background color with a little bit see-through */
-/* .prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-} */
 
 /* Caption text */
 .text {
