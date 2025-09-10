@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cogent-chess-459222-v3",
+  "private_key_id": "504747fa2286035a2e24c0924b5b55c35d84b415",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHcmqI+6FpjlnQ\nLV2VC7NrURqIfMbX71dZI/iA5lntNJYTgKML+OnJz+i/f+Pk28s/DCLKZWJILzWD\nAP8GrxzuUPfH+C4gAkpqKi58AvzRKkRWFPqQe8QauCBUupcxbbSRYx7Z9tEiWuc2\nkuvsWqRS+JW7uMNhtl3rQoBf/WOslmi6FRIEojVBUpC0vYGo5cjaZ9hA5Om3Modv\nwocbs3hs0QgZjR2exansrPj+24iVQOvtH9SB40vzp0/1QdbkgB+0g0ICwoYkJa7z\nsY8lwvCztl5/khyFTh4rxj5jDxHhjBrfJNhobFl8CNbO9ntAvvZVrWqTJzSnARmo\nro4dyBBJAgMBAAECggEAAiYOg0MQuREAtXvBWM3kgHkCK+sux+6vjVLUNBFLzTeT\n/eVwIM7/gOv6O1LFpEjKCiWp29vW9654hMpkEGMxENky9QbMjLKD5+5kMHQLEm2n\nCOMW5mI4q+AE3W8ZURlBNqLB6ZRLKmrDN9dCJcOG774JV8cieAEf2PiYQhmesytg\nWodJAvT1rbfhr5oc6fYeYyzMl6G3xidE06UdooYZe583gMrbHNNN8mpBak+xxynR\nuUFFJzKaUu/NqjOk0NBUrGOkA3lMUXoHWuDhHUSrIRpkdWAcstlVkp05nSDNC+fk\nEDlB2NVscsidlc6TkEgDqC5mWMpUdb4FH6ZBQbI8fQKBgQDl8QWUX2780pABUkPc\nhE3JkBs3jZm6Zde3hMIhwcJTintraOaIuxLdj9Xj30B3G9pizNLiWBuprIRCQZmu\nG6qgpXA7OpgP6JkLRxFjkn0zCzElnK2RckKR4fFIhbrs3iAeIxEwS7BwMgtfjvL4\noHChv6Ln4J++2txe/nlfweNOjQKBgQDeDLKTey0cZaXIM0uNQ0xcoLjKCNe1eF6C\nkAaZ0vy7Q8xTxIcSJk1egnMzA0IZJy/0kVbv/9WCC4XSZ2N370eqE0XMUyuIyxYH\n0jKye27uhapM5l0QXY7VTcbxq5t8NJ0xnjcjhwrhCu2tEhZ2rGynoCJT2sbtBhmd\ngXk9PianrQKBgQDKVDmnpA3iM1l5gCysZlKYMNByIowJg0G8fvnfgEIBBpKxIZ3w\n5EOmZ8E6gKCV7hFM7JQHjKXSuDWso1KZ7EhIkSpfQ6C4JuA8Fy3K4wR9nLSDNwlX\nOSYwfZK1UM75TD8QpaSjTYaUQsTVMdDES1CwUxMCXBnUc3qDsAGW6+GapQKBgQCf\nb7yVet9UQYQ88N/xyX2+EMU+hATmz0wFMYcb0kwX5kGDcFyP4qKxFrfCzDccum+L\niwRChY73tnBbOFNKnav2aao3YQykRzZFXV97mnd3mtBCMTJnetYBQLx1cIPPNjQc\nmX776o4cMm2gVJl+kqXd4nRjg3ZMYJHp7zpvh/3XbQKBgGJ1Uy5uRxNZ2Le/C77R\nDlctOV5d/cmt2uGpQk5MVvtrdhSZh65SOKJ0Pabd3PnN+njFfYHBiJzHMRaoNmFR\nBNaRzAlZxWhArBXUwFSV1TnSTsv2De0GHdD9j50vTaFWiN4i95O/PLx+59cbefE4\nP+GX71orr9Z5dhuslnEjFaDt\n-----END PRIVATE KEY-----\n",
+  "client_email": "fvstudio@cogent-chess-459222-v3.iam.gserviceaccount.com",
+  "client_id": "118088669106602071395",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fvstudio%40cogent-chess-459222-v3.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
