@@ -60,15 +60,6 @@
         0 0 21px #fff,
 }
 
-.brillo-img {
-    height: 100vh;
-    max-width: max-content;
-    opacity: 0.2;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-}
-
 .brillos {
     width: 100vw;
     height: 30vh;
@@ -230,6 +221,14 @@
         //margin: 1.5rem;
     }
 
+    .mariposa {
+        position: absolute;
+        width: 10vw;
+        transform: rotate(-10deg);
+        left: 7vw;
+        bottom: 5vh;
+    }
+
     .contador {
         width: 100%;
         padding: 0 10vw;
@@ -317,6 +316,30 @@
         top: 77vh;
         right: -46vw;
         z-index: 1;
+    }
+
+    .estrella-1 {
+        position: absolute;
+        width: 7vh;
+        top: 5vh;
+        right: 5vw;
+        z-index: 6;
+    }
+
+    .estrella-2 {
+        position: absolute;
+        width: 9vh;
+        top: 39.5vh;
+        left: 0vw;
+        z-index: 6;
+    }
+
+    .estrella-3 {
+        position: absolute;
+        width: 9vh;
+        top: 78vh;
+        right: 0vw;
+        z-index: 6;
     }
 
     .bola {
