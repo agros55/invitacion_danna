@@ -813,4 +813,14 @@ img {
 #total-time {
   margin-top: 10px;
   color: #fff;
+}
+
+.footer {
+  text-align: center;
+  padding: 1vh;
+  color: #917c5a;
+}
+.footer a {
+  color: #8b7c57;
+  font-weight: 900;
 }/*# sourceMappingURL=style.css.map */

@@ -911,3 +911,14 @@
     margin-top: 10px;
     color: #fff;
 }
+
+.footer {
+    text-align: center;
+    padding: 1vh;
+    color: $dorado;
+
+    a {
+        color: $marron2;
+        font-weight: 900;
+    }
+}
