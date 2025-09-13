@@ -117,11 +117,11 @@
       "id": 20,
       "invitados": "Daniela",
       "cant_inv": 3,
-      "link": "dani"
+      "link": "daniela"
     },
     {
       "id": 21,
-      "invitados": "Maga y familia  ",
+      "invitados": "Magalí y familia  ",
       "cant_inv": 4,
       "link": "maga"
     },
@@ -153,25 +153,25 @@
       "id": 26,
       "invitados": "Marianella y familia ",
       "cant_inv": 4,
-      "link": "mari"
+      "link": "marianella"
     },
     {
       "id": 27,
       "invitados": "Carolina Pelinski ",
       "cant_inv": 1,
-      "link": "caro"
+      "link": "caro_peli"
     },
     {
       "id": 28,
       "invitados": "Silvia Acevedo ",
       "cant_inv": 1,
-      "link": "silv"
+      "link": "silvia_acev"
     },
     {
       "id": 29,
       "invitados": "Marga Cabral ",
       "cant_inv": 2,
-      "link": "marg"
+      "link": "marga_cabr"
     },
     {
       "id": 30,
@@ -189,67 +189,67 @@
       "id": 32,
       "invitados": "Andrés y familia ",
       "cant_inv": 3,
-      "link": "andr"
+      "link": "andres"
     },
     {
       "id": 33,
       "invitados": "Griselda Bica ",
       "cant_inv": 3,
-      "link": "gris"
+      "link": "gris_bica"
     },
     {
       "id": 34,
       "invitados": "Carli y familia  ",
       "cant_inv": 4,
-      "link": "carl"
+      "link": "carli"
     },
     {
       "id": 35,
       "invitados": "Mariela Dos Santos ",
       "cant_inv": 2,
-      "link": "mari"
+      "link": "mari_dos"
     },
     {
       "id": 36,
       "invitados": "Lito Andino ",
       "cant_inv": 1,
-      "link": "lito"
+      "link": "lito_and"
     },
     {
       "id": 37,
       "invitados": "Cintia Sandoval y familia ",
       "cant_inv": 4,
-      "link": "cint"
+      "link": "cintia_sando"
     },
     {
       "id": 38,
       "invitados": "Rubén Sandoval ",
       "cant_inv": 3,
-      "link": "rube"
+      "link": "rube_sando"
     },
     {
       "id": 39,
       "invitados": "Gabriel Szulepa ",
       "cant_inv": 4,
-      "link": "gabr"
+      "link": "gabr_szul"
     },
     {
       "id": 40,
       "invitados": "Elvira Ryll y familia",
       "cant_inv": 2,
-      "link": "elvi"
+      "link": "elvira"
     },
     {
       "id": 41,
       "invitados": "Florencia Viveros ",
       "cant_inv": 2,
-      "link": "flor"
+      "link": "flor_viv"
     },
     {
       "id": 42,
       "invitados": "0mar Moray ",
       "cant_inv": 5,
-      "link": "0mar"
+      "link": "omar"
     },
     {
       "id": 43,
@@ -261,31 +261,31 @@
       "id": 44,
       "invitados": "Yoni Andino ",
       "cant_inv": 2,
-      "link": "yoni"
+      "link": "yoni_andi"
     },
     {
       "id": 45,
       "invitados": "Cristian Andino ",
       "cant_inv": 3,
-      "link": "cris"
+      "link": "cris_andi"
     },
     {
       "id": 46,
       "invitados": "Roque Behler ",
       "cant_inv": 3,
-      "link": "roqu"
+      "link": "roque_behl"
     },
     {
       "id": 47,
       "invitados": "Enrique Cydeiko ",
       "cant_inv": 2,
-      "link": "enri"
+      "link": "enri_cyde"
     },
     {
       "id": 48,
       "invitados": "Ezequiel Szulepa ",
       "cant_inv": 4,
-      "link": "ezeq"
+      "link": "ezeq_szul"
     },
     {
       "id": 49,
@@ -297,19 +297,19 @@
       "id": 50,
       "invitados": "Omar Wiese ",
       "cant_inv": 4,
-      "link": "omar"
+      "link": "omar_wiese"
     },
     {
       "id": 51,
       "invitados": "Leonel Rindfleisch ",
       "cant_inv": 1,
-      "link": "leon"
+      "link": "leon_rind"
     },
     {
       "id": 52,
       "invitados": "Martin Delinski ",
       "cant_inv": 7,
-      "link": "mart"
+      "link": "mart_deli"
     },
     {
       "id": 53,

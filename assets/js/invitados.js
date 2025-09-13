@@ -17,7 +17,11 @@ fetch('assets/datos/invitados.json')
             console.log(inv_filtrado[0].invitados)
             console.log(inv_filtrado[0].cant_inv)
             invitado.innerHTML = inv_filtrado[0].invitados
-            cant_pers.innerHTML = inv_filtrado[0].cant_inv + " Personas"
+            if (inv_filtrado[0].cant_inv == 1)
+                cant_pers.innerHTML = inv_filtrado[0].cant_inv + " Persona"
+            else
+                cant_pers.innerHTML = inv_filtrado[0].cant_inv + " Personas"
+
         })
 
 
