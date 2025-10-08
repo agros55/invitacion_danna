@@ -347,6 +347,12 @@
       "invitados": "Daniela y Flia",
       "cant_inv": 2,
       "link": "dani"
+    },
+    {
+      "id": 59,
+      "invitados": "Familia Gomez Pereira",
+      "cant_inv": 5,
+      "link": "gom_per"
     }
   ]
 }
